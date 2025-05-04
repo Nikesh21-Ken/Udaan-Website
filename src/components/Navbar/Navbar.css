@@ -1,0 +1,235 @@
+.nav{
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999;
+    box-shadow: 0px 2px 5px #afafaf;
+}
+.nav-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto; 
+    img {
+        height: 50px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+.links {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.links ul li {
+    display: inline-block;
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.links ul li svg {
+    position: absolute;
+    top: -5px;
+    
+}
+
+.abroad-nav li :hover{
+    color: #C3262B;
+}
+.abroad-nav li .active{
+    color: #C3262B;
+}
+.test-nav li :hover{
+    color: #C3262B;
+}
+.test-nav li .active{
+    color: #C3262B;
+}
+.abroad-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    background: #ffffff;
+    align-items: center;
+    width: 200px;
+    box-shadow: 0 3px 5px #696969;
+    transform: translateY(-20px);
+    transition: ease-in-out 0.5s;
+    visibility: hidden;
+    opacity: 0;
+  
+}
+
+.abroad-study:hover{
+    .abroad-nav{
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+}
+.abroad-nav li {
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.test-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    background: #ffffff;
+    align-items: center;
+    width: 200px;
+    box-shadow: 0 3px 5px #696969;
+    transform: translateY(-20px);
+    transition: ease-in-out 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.test-preparation:hover{
+    .test-nav{
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+
+    }
+}
+.test-nav li {
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.links .active{
+    color: #3954A4;
+}
+.links ul li:hover{
+    color: #3954A4;
+    transition: all 0.2s;
+}
+
+.hamburger img {
+    visibility: hidden;
+position: fixed;
+top: 30px;
+right: 50px;
+z-index: 999999999999999;
+ color: #3954A4;
+ height: 40px;
+ cursor: pointer;
+ 
+}
+.menu-icon {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .hamburger img {
+        visibility: visible;
+    }
+    .links{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        right: -250px;
+        bottom: 0;
+        background-color: #ffffff;
+        width: 250px;
+        box-shadow: 0 2px 10px #585858;  
+        transition: ease-in-out 0.5s;
+    }
+    .unhide{
+        transition: ease-in-out 0.5s;
+        right: 0px;
+    }
+    .links ul li {
+        display: block;
+       padding-bottom: 2rem;
+        position: relative;
+        font-size: 20px;
+        svg {
+            visibility: hidden;
+            position: absolute;
+            top: -1px;
+            margin-right: 6px;
+        }
+        .test-nav li {
+            padding-bottom: 1rem;
+        }
+    }
+    .links ul {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .abroad-nav{
+        top: 0;
+        left: -225px;
+    }
+    .test-nav{
+        top: 0;
+        left: -225px;
+    }
+   
+}
+@media (max-width: 500px) {
+    .logo img {
+        height: 40px;
+    }
+    .abroad-nav{
+        top: 0;
+        left: -150px;
+        z-index: 999999999999;
+    }
+    .test-nav{
+        top: 0;
+        left: -150px;
+        z-index: 999999999999
+    }
+    .links ul li {
+        font-size: 18px;
+    }
+   
+}
+@media (max-width: 320px) {
+    .logo img {
+        height: 30px;
+    }
+    .links{
+        width: 200px;
+    }
+    .abroad-nav{
+        top: 0;
+        left: -100px;
+        z-index: 999999999999;
+    }
+    .test-nav{
+        top: 0;
+        left: -100px;
+        z-index: 999999999999
+        
+    }
+  
+}
+
+
+  

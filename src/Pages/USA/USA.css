@@ -1,0 +1,233 @@
+.background-usa{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/5;
+    background: linear-gradient( rgba(22.4, 32.9, 64.3, 0.7), rgba(22.4, 32.9, 64.3, 0.7)), url('../../assets/usa.jpg');
+    background-size:cover;
+    margin-top: 100px;
+}
+
+.background-usa-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    text-align: center;
+}
+.background-usa-text h1{
+    font-size: 54px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-usa-text h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-usa-text p{
+    font-size: 20px;
+    color: white;
+}
+.usa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 36px;
+        color: #3954A4;
+        text-transform: uppercase;
+    }
+
+}
+.usa-dark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e4e4e4;
+    h1{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 36px;
+        color: #3954A4;
+        text-transform: uppercase;
+        
+    }}
+.why-usa{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4 ;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.why-usa-img {
+    max-width: 30%;
+    padding-left: 2rem;
+}
+.why-usa-img img {
+    max-width: 100%;
+    padding: 2rem;
+    float: left;
+    border-radius: 1rem;
+}
+
+.why-usa-text{
+    max-width: 90%;
+    margin: 2rem auto;
+}
+.why-usa-text h2{
+    font-size: 24px;
+    color: #343434;
+    padding-bottom: 1rem;
+}
+.why-usa-text p{
+    text-align: justify;
+    font-size: 16px;
+    color: #343434;
+    padding-bottom: 1rem;
+}
+
+.info-usa {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    max-width: 90%;
+    
+}
+.info-usa-img {
+    max-width: 35%;
+    margin-left: auto;
+}
+.info-usa-img img {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-usa-text{
+    max-width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+.info-usa-text h3 {
+    text-align: justify;
+    font-size: 18px;
+    color: #343434;
+    padding-bottom: 1rem;
+}
+.info-usa-text p {
+    text-align: justify;
+    font-size: 16px;
+    color: #343434;
+    padding-bottom: 1rem;
+}
+/* media quiry */
+@media (max-width: 1024px) {
+    .background-usa{
+        margin-top: 40px;
+    }
+.background-usa-text{
+    max-width: 80%;
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.why-usa-img {
+    max-width: 45%;
+}
+.info-usa-img{
+    max-width: 40%;
+    img{
+        max-width: 100%;
+    }
+}
+}
+@media (max-width: 840px){
+    .background-usa{
+        margin-top: 70px;
+        aspect-ratio: 7/5;
+    }
+    .background-usa-text{
+        max-width: 90%;
+        h1{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        h2{
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .usa{
+        h1{
+            font-size: 24px;
+        }}
+
+    .usa-dark{
+        h1{
+            font-size: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .why-usa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .why-usa-img{
+        max-width: 90%;
+        margin: 6px auto;
+        order: 1;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .why-usa-img img {
+            max-width: 100%;
+            padding: 0;
+            float: none;
+            margin: 0 auto;
+            
+         
+    }
+    .why-usa-text{
+        max-width: 90%;
+        margin: 1rem auto;
+    }
+    .info-usa {
+        flex-direction: column;
+    }
+    .info-usa-img{
+        max-width: 90%;
+        margin: 6px auto;
+        order: 2;
+        align-items: center;
+    }
+    .info-usa-img img{
+        max-width: 100%;
+       
+    }
+    .info-usa-text {
+        max-width: 90%;
+        margin: 6px auto;
+    }
+}

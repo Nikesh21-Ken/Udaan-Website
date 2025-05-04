@@ -1,0 +1,112 @@
+.background-ielts {
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    aspect-ratio: 16/3;
+    background: linear-gradient(rgba(22.4, 32.9, 64.3, 0.7), rgba(22.4, 32.9, 64.3, 0.7)), url('../../../assets/ielts-background.jpg');
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.background-ielts-text {
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    color: white;
+    font-size: 24px;
+    font-weight: 800px;
+}
+
+.ielts {
+    background-color: #e4e4e4;
+    padding: 2rem 0;
+}
+.ielts-light {
+    background-color: #ffffff;
+    padding: 2rem 0;
+    .info-ielts-img{
+        order: 1;
+    }
+}
+
+.info-ielts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    align-items: start;
+    margin: 2rem auto;
+}
+
+.info-ielts-img {
+    max-width: 40%;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+
+    }
+}
+
+.info-ielts-text {
+    max-width: 50%;
+
+    h3 {
+        font-size: 24px;
+        color: #343434;
+        padding-bottom: 1rem;
+    }
+    p{
+        text-align: justify;
+        font-size: 16px;
+        color: #343434;
+        padding-bottom: 1rem;
+    }
+}
+.texture {
+    /* margin-top: 3rem; */
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 300px;
+   background: url('../../../assets/texture.jpg'); 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* media quiry */
+@media (max-width: 840px){
+    .background-ielts{
+        margin-top: 100px;
+        aspect-ratio: 6/3;
+    }
+    .info-ielts {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info-ielts-img {
+        max-width: 90%;
+        order: 1;
+        margin: 6px auto;
+        img {
+            border-radius: 10px;
+        }
+        
+    }
+    .info-ielts-text {
+        max-width: 90%;
+        margin: 6px auto;
+        
+        h3 {
+            font-size: 20px;
+            
+        }
+        p{
+            text-align: justify;
+            font-size: 16px;
+            color: #343434;
+            padding-bottom: 1rem;
+        }}
+}

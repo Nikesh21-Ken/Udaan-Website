@@ -1,0 +1,18 @@
+.title{
+    text-align: center;
+    color: #C3262B;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 70px 0 30;
+    padding-top: 1rem;
+
+}
+.title h2{
+    font-size: 32px;
+    color: #3954A4;
+    margin-top: 5px;
+}
+.program-title {
+    padding-top: 2rem;
+  }

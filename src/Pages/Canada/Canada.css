@@ -1,0 +1,158 @@
+.background{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 15/4;
+    background: linear-gradient( rgba(22.4, 32.9, 64.3, 0.5), rgba(22.4, 32.9, 64.3, 0.5)), url('../../assets/Canada-background.jpg');
+    background-size:cover;
+    margin-top: 40px;
+}
+
+.background-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    text-align: center;
+}
+.background-text h1{
+    font-size: 54px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-text h2{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-text p{
+    font-size: 20px;
+    color: white;
+}
+
+.canada-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.canada-description h1{
+    font-size: 48px;
+    color: #3954A4;
+    text-transform: uppercase;
+}
+.canada-description button{
+    margin-top: 2rem;
+}
+.description {
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+}
+.canada-description h1 {
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    color: #3954A4;
+}
+.description-img{
+    display: flex;
+    max-width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.description img {
+    max-width: 60%;
+}
+.description p {
+    font-size: 16px;
+    max-width: 50%;
+    text-align: justify;
+    color: #343434;
+}
+.options{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.options h1 {
+    font-size: 28px;
+    color: #3954A4;
+    padding-top: 4rem;
+    padding-bottom: 2rem ;
+}
+.option h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+ .option p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #343434 ;
+    text-align: justify;
+ }
+ /* media quiry */
+
+@media (max-width: 1020px) {
+    .description p {
+        font-size: 15px;
+    }
+    .description img {
+        max-width: 80%;
+    }
+    
+}
+@media (max-width: 768px) {
+    .background{
+        background: linear-gradient( rgba(22.4, 32.9, 64.3, 0.5), rgba(22.4, 32.9, 64.3, 0.5)), url('../../assets/Canada-background - 2.jpg');
+        aspect-ratio: 15/9;
+    }
+
+    .background-text{
+        max-width: 90%;
+        margin-top: 70px;
+        aspect-ratio: 13/15; 
+    }
+    .background-text h1{
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+    .background-text h2{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .background-text p{
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .description-img {
+        max-width: 100%;
+    }
+    .description p {
+        max-width: 100%;
+        padding-top: 1rem;
+    }
+    .canada-description button{
+        margin-top: 1rem;
+    }
+ 
+    
+    
+}
+

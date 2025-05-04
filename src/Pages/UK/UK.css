@@ -1,0 +1,224 @@
+.uk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 100px;
+}
+.uk button{
+    margin: 2rem 0 ;
+}
+.background-uk{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/5;
+    background: linear-gradient( rgba(22.4, 32.9, 64.3, 0.7), rgba(22.4, 32.9, 64.3, 0.7)), url('../../assets/UK.jpg');
+    background-size:cover;
+    margin-top: 40px;
+}
+
+.background-uk-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    text-align: center;
+}
+.background-uk-text h1{
+    font-size: 54px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-uk-text h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-uk-text p{
+    font-size: 20px;
+    color: white;
+}
+.content{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 48px;
+    color: #3954A4;
+    text-transform: uppercase;
+}
+.study-uk{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    /* align-items: center; */
+    margin: 1rem auto;
+    
+    
+}
+.study-uk-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.study-uk img{
+    max-width: 50%;
+}
+.study-uk p{
+    max-width: 40%;
+    text-align: justify;
+    font-size: 18px;
+    color: #343434;
+}
+.uk-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: #e4e4e4;
+    padding: 2rem 0;
+}
+.uk-info-light{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+.uk-info img {
+    margin: 0 auto;
+    max-width: 40%;
+}
+.uk-info-light img {
+    margin: 0 auto;
+    max-width: 40%;
+}
+.info-text{
+    margin: 0 auto;
+    max-width: 40%;
+}
+.info-text h3 {
+    padding-bottom: 1rem;
+    color: #3954A4;
+    text-transform: uppercase;
+}
+.info-text p {
+    text-align: justify;
+    color: #343434;
+    padding-bottom: 1rem;
+}
+.info-text ul li {
+    padding-bottom: 10px;
+    text-align: justify;
+    color: #343434;
+    
+}
+
+/* meida quiry */
+@media (max-width: 1024px) {
+    .study-uk-img{
+       align-items: start;
+       max-width: 45%;
+    }
+    .study-uk img {
+        max-width: 100%;
+    }
+    .study-uk P {
+        max-width: 45%;
+    }
+    .uk-info{
+        display: block;
+        align-items: start;
+    }
+    .uk-info-light{
+        align-items: center;
+        .info-text{
+            max-width: 45%;
+        }
+    }
+    .uk-info img {
+        float: left;
+        margin: 0 2rem;
+    }
+    .uk-info img {
+        float: left;
+        margin: 0 2rem;
+    }
+    .info-text {
+        max-width: 90%;
+    }
+
+}
+@media (max-width: 840px) {
+    .background-uk-text{
+        max-width: 90%;
+        margin-top: 70px;
+        aspect-ratio: 13/15;
+    }
+    .background-uk-text h1{
+        font-size: 22px;
+    }
+    .background-uk-text h2{
+        font-size: 14px;
+    }
+    .background-uk-text p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+.study-uk{
+    flex-direction: column;
+    .study-uk-img {
+        max-width: 90%;
+        margin: 10px auto;
+        order: 1;
+    }
+    p {
+        max-width: 100%;
+        margin-top: 10px auto;
+        padding-bottom: 1rem;
+    }
+
+}
+.uk-info{
+    display: flex;
+    flex-direction: column;
+     
+    img {
+        max-width: 90%;
+        float: none;
+        order: 1;
+        margin: 10px auto;
+    }
+    .info-text{
+       max-width: 90%;
+    }
+
+    
+}
+.uk-info-light{
+    display: flex;
+    flex-direction: column;
+     
+    img {
+        max-width: 90%;
+        margin: 10px auto;
+    }
+    .info-text{
+        max-width: 90%;
+        margin: 10px auto;
+    }
+}
+}

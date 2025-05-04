@@ -1,0 +1,226 @@
+.courses{
+    display: flex;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    width: 90%;
+    margin-top: 150px;    
+}
+.courses-img{
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.courses-img img {
+    border-radius: 10px;
+    width: 600px;
+    
+}
+
+
+.courses-caption{
+    float: left;
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.courses-caption h2 {
+    font-size: 64px;
+    font-weight: 700;
+    font-variant-caps: all-petite-caps;
+    margin-bottom: 1rem;
+    color: #3954A4;
+}
+.courses-caption h3 {
+    font-size: 40px;
+    font-weight: 700;
+    font-variant-caps: all-petite-caps;
+    margin-bottom: 1rem;
+    color: #3954A4;
+}
+.courses-caption h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.courses-caption p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 10px;
+   
+    
+}
+.courses-caption ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style: number;
+    color: #343434;
+}
+.courses-caption ul {
+    margin-top: 10px;
+}
+
+.hidetextBtn{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: #212ea0;
+}
+.hide{
+    display: none;
+}
+
+
+/* media qiury */
+@media (max-width:1500px ) {
+    
+    .courses-img{
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .courses-img img {
+        width: 450px;
+    }
+    
+    
+    .courses-caption{
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .courses-caption h2 {
+        font-size: 54px;
+        font-weight: 600;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 1rem;
+    }
+    .courses-caption h3 {
+        font-size: 40px;
+        font-weight: 600;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 1rem;
+    }
+    .courses-caption h4 {
+        font-size: 16px;
+        font-weight: 600;
+    
+    }
+    .courses-caption p {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: justify;
+        padding-bottom: 10px;
+        
+    }
+   
+}
+
+@media (max-width:1200px ){
+    .courses-img{
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .courses-img img {
+        width: 300px;
+    }
+    
+    
+    .courses-caption{
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .courses-caption h2 {
+        font-size: 35px;
+        font-weight: 600;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 1rem;
+    }
+    .courses-caption h3 {
+        font-size: 28px;
+        font-weight: 600;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 1rem;
+    }
+    .courses-caption h4 {
+        font-size: 14px;
+        font-weight: 600;
+    
+    }
+    .courses-caption p {
+        font-weight: 400;
+        font-size: 10px;
+        text-align: justify;
+        padding-bottom: 10px;
+        
+    }
+
+}
+@media (max-width:768px ){
+    .courses{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        
+    }
+    .courses-img{
+        margin-top: 50px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .courses-img img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .courses-caption{
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .courses-caption h2 {
+        font-size: 30px;
+        font-weight: 600;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 6px;
+    }
+    .courses-caption h3 {
+        font-size: 28px;
+        font-weight: 600;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 6px;
+    }
+    .courses-caption h4 {
+        font-size: 14px;
+        font-weight: 600;
+    
+    }
+    .courses-caption p {
+        font-weight: 400;
+        font-size: 10px;
+        text-align: justify;
+        padding-bottom: 6px;
+        
+    }
+   
+    .courses-caption ul li {
+        padding-bottom: 6px;
+        padding-top: 6px;
+        list-style: number;
+    }
+}

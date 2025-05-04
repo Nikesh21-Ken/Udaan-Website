@@ -1,0 +1,225 @@
+.background-australia{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/5;
+    background: linear-gradient( rgba(22.4, 32.9, 64.3, 0.7), rgba(22.4, 32.9, 64.3, 0.7)), url('../../assets/australia.jpg');
+    background-size:cover;
+    margin-top: 100px;
+}
+
+.background-australia-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    text-align: center;
+}
+.background-australia-text h1{
+    font-size: 54px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-australia-text h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 10px;
+}
+.background-australia-text p{
+    font-size: 20px;
+    color: white;
+}
+.australia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.australia h1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 48px;
+    color: #3954A4;
+    text-transform: uppercase;
+}
+.info-australia{
+    max-width: 100%;
+    justify-content: center;
+    align-self: center;
+    background-color: #e4e4e4 ;
+}
+
+.info-australia-img {
+    max-width: 40%;
+    padding-left: 2rem;
+}
+.info-australia-img img {
+    max-width: 100%;
+    padding: 2rem;
+    float: left;
+    border-radius: 1rem;
+}
+
+.info-australia-text{
+    max-width: 90%;
+    margin: 2rem auto;
+}
+.info-australia-text p{
+    text-align: justify;
+    font-size: 16px;
+    color: #343434;
+    padding-bottom: 1rem;
+}
+.australia-option {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    max-width: 90%;
+}
+.australia-option img {
+    max-width: 45%;
+    height: 45%;
+    margin: 1rem auto;
+    order: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 #818181;
+    
+}
+.australia-option-dark {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    background: #e4e4e4;
+    padding: 2rem 0;
+     max-width: 90%;
+}
+.australia-option-dark img {
+    max-width: 45%;
+    height: 45%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 #818181;
+    
+}
+.option-text{
+    max-width: 45%;
+    margin: 1rem auto;
+}
+.option-text h2{
+    padding-bottom: 1rem;
+    font-size: 32px;
+    color: #3954A4;
+    text-transform: uppercase;
+}
+.option-text p{
+    text-align: justify;
+    font-size: 16px;
+    color: #343434;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+
+    .info-australia-img {
+        max-width: 60%;
+        padding-left: 2rem;
+    }
+    .australia-option{
+        display: block;
+    }
+    .australia-option img {
+        margin: 1rem 1rem;
+        float:right;
+        border-radius: 10px;
+        box-shadow: 0 0 12px 0 #818181;
+    }
+    .option-text {
+        max-width: 90%;
+    }
+    .australia-option-dark {
+        display: block;
+    }
+    .australia-option-dark img {
+        margin: 1rem 1rem;
+        float:right;
+        border-radius: 10px;
+        box-shadow: 0 0 12px 0 #818181;
+    }
+    .option-text-dark {
+        max-width: 90%;
+    }
+
+.background-australia-text h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+.background-australia-text h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.background-australia-text p{
+    font-size: 16px;
+    
+}
+.background-australia{
+    margin-top: 50px;
+}
+}
+@media (max-width: 678px) {
+    .background-australia{
+        margin-top: 100px;
+        aspect-ratio: 9/5;
+    }
+    .background-australia-text p{
+        font-size: 12px;
+        
+    }
+    .background-australia-text h1{
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+    .background-australia-text{
+        max-width: 90%;
+    }
+    .info-australia {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .info-australia-img {
+        float: none;
+        order: 1;
+        max-width: 100%;
+    }
+    .info-australia-img img {   
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+    }
+    .australia-option{
+        display: flex;
+        flex-direction: column;
+    }
+    .australia-option img {
+        float: none;
+        order: 1;
+        max-width: 100%;
+    }
+    .australia-option-dark{
+        display: flex;
+        flex-direction: column;
+    }
+    .australia-option-dark img {
+        float: none;
+        order: 1;
+        max-width: 100%;
+    }
+
+}

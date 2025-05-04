@@ -1,0 +1,137 @@
+.apply-background {
+    margin-top: 200px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid #3954A4;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+    h1 {
+        padding: 2rem 2rem 2rem 0;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 28px;
+
+    }
+}
+.info-box{
+    box-sizing: border-box;
+    border: 1px solid #7a7b80;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.info-box h1 {
+   position: absolute;
+   top: -25px;
+   left: 20px;
+   font-size: 24px;
+   color: #3954A4;
+   background-color: white;
+   padding: 10px;
+   text-transform: capitalize;
+}
+
+.personal-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 90%;
+    
+    .i-box{
+        flex-basis: 30%;
+    }
+   
+}
+.adress-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 90%;
+    .i-box{
+        flex-basis: 48%;
+    }
+   
+}
+.academic-information {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 90%;
+   
+}
+.english-information{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(2, 100%);
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 90%;
+   
+}
+.required::after{
+    content: ' *';
+    color: rgb(185, 83, 83);
+    font-size: 20px;
+}
+.i-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    max-width: 100%;
+}
+.i-box h2 {
+    font-size: 18px;
+   color: #3954A4;
+   padding: 10px 0;
+   font-weight: 500;
+}
+.i-box input, .i-box textarea {
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5x;
+    resize: none;
+}
+.i-box label{
+    color: #3954A4;
+    padding-bottom: 10px;
+    padding: 5px;
+}
+.submit-btn{
+    margin-bottom: 1rem;
+}
+/* @media quiry */
+@media (max-width: 840px) {
+    .adress-information {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        /* grid-template-rows: repeat(3, 100%); */
+        justify-content: space-between;
+        margin: 2rem auto;
+        max-width: 90%;
+       
+    }
+    .personal-information {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        /* grid-template-rows: repeat(2, 100%); */
+        justify-content: space-between;
+        margin: 2rem auto;
+        max-width: 90%;
+       
+    }
+}
+@media (max-width: 500px) {
+    .personal-information{
+        grid-template-columns: repeat(1, 100%);
+
+    }
+}
