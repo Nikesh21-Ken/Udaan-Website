@@ -29,9 +29,9 @@ const Home = () => {
         <About/>
         <Title subTitle='Study Abroad' title='Study in the best universities of the World'/>
         <Campus/>
-        <Title subTitle='Testimonials ' title='What our Students says about us'/>
+        <Title subTitle='Testimonials ' title='What our Students say about us'/>
         <Testimonials/>
-        <Title subTitle='Contact us' title='Intrested in a course?'/>
+        <Title subTitle='Contact us' title='Interested in a course?'/>
         <Contact/>
         <Fotter/>
       </div>

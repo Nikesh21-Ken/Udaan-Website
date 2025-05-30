@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react'
 import './ProgramPage.css'
 import Navbar from '../../components/Navbar/Navbar'
 import './ProgramPage.css'
-import program_1 from '../../assets/program-1.png'
-import program_2 from '../../assets/program-2.png'
-import program_3 from '../../assets/program-3.png'
+import program_1 from '../../assets/Diploma.jpeg'
+import program_2 from '../../assets/Bachelors.jpeg'
+import program_3 from '../../assets/Master.jpeg'
 import program_icon_1 from '../../assets/program-icon-1.png'
 import program_icon_2 from '../../assets/program-icon-2.png'
 import program_icon_3 from '../../assets/program-icon-3.png'
@@ -39,7 +39,9 @@ const ProgramPage = () => {
     <div className='container'>
       <div>
       <Navbar/>
+      
       </div>
+      <div className='box'>
       <div className='courses'>
             <div className='courses-img'>
                 <img src={program_1} alt="" /></div>
@@ -150,6 +152,7 @@ const ProgramPage = () => {
                 </ul>
                 Explore our Master's/Post-Graduate Degree programs for international students and take the first step towards advancing your education and career on a global scale.</span> <button className={`hidetextBtn ${colapse? "hide" : ""}`} onClick={showText}> <p>...see more</p></button> <button className= {`hidetextBtn ${colapse? "" : "hide"}`} onClick={lessText}> <p>...see less</p></button></p>
                 <div className='btn-apply'> <button className= 'btn dark-btn'> <Link to = '/apply-now'> Apply Now </Link> </button> </div>
+            </div>
             </div>
           </div>
           <Fotter/>

@@ -119,6 +119,9 @@
 }
 
 @media (max-width:1200px ){
+    .box{
+        margin-top: 80px;
+    }
     .courses-img{
         max-width: 45%;
         margin-left: auto;

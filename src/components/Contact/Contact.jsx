@@ -14,7 +14,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "dbf55b7e-40a3-44fe-aea7-1f899b6a636d");
+    formData.append("access_key", "8679fc5b-8058-471e-9656-d01c1fbf45d1");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -55,7 +55,7 @@ const Contact = () => {
         <form onSubmit={onSubmit}>
           <label >Your Full Name</label>
           <input type="text" name='name' placeholder='Enter your Full Name' required />
-          <label>Email Adress</label>
+          <label>Email Address</label>
           <input type="text" name='Email' placeholder='Enter your Email Address' required />
           <label>Interested Course</label>
           <input type="text" name='Course' placeholder='Write The Course You are Intrested In' required />

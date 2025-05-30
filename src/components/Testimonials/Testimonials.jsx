@@ -88,9 +88,45 @@ const Testimonials = () => {
 }
 const data = [
   {
-    name: "Ashbin Shrestha ",
-    photo: '/student/Ashbin-Shrestha.jpg',
-    college: `/college/georgian.png`,
+    name: "Rabina Lama Tamang",
+    photo: '/student/Rabina-Lama-Tamang.jpg',
+    college: `/college/coventry.png`,
+    review: ""
+  },
+  {
+    name: "Rahul Rauniyar ",
+    photo: '/student/Rahul-Rauniyar.jpg',
+    college: `/college/sunderland.png`,
+    review: ""
+  },
+  {
+    name: "Pravin Tamang ",
+    photo: '/student/Pravin-Tamang.jpg',
+    college: `/college/arkansas.png`,
+    review: ""
+  },
+  {
+    name: "Lachhuman Buddhathoki",
+    photo: '/student/Lachhuman-Budhathoki.jpg',
+    college: `/college/arkansas.png`,
+    review: ""
+  },
+  {
+    name: "Laxmi Shakya",
+    photo: '/student/Laxmi-Shakya.jpg',
+    college: `/college/arkansas.png`,
+    review: ""
+  }, 
+  {
+    name: "Khem Raj Paneru",
+    photo: `/student/Khem-raj.JPG`,
+    college: "/college/Canadore-college.png",
+    review: ""
+  },
+  {
+    name: "Prapti Pokharel",
+    photo: '/student/Prapti-Pokhrel.jpg',
+    college: `/college/arkansas.png`,
     review: ""
   },
   {
@@ -99,6 +135,19 @@ const data = [
     college: "/college/centennial.png",
     review: ""
   },
+  {
+    name: "Pasang Dolma Tamang",
+    photo: '/student/Pasang-Dolma-Tamang.jpg',
+    college: `/college/arkansas.png`,
+    review: ""
+  },
+  {
+    name: "Ashbin Shrestha ",
+    photo: '/student/Ashbin-Shrestha.jpg',
+    college: `/college/georgian.png`,
+    review: ""
+  },
+  
   {
     name: "Milan Lama ",
     photo: `/student/Niran-Lama.jpg`,
@@ -123,12 +172,7 @@ const data = [
     college: "/college/Niagara-college.png",
     review: ""
   },
-  {
-    name: "Khem Raj Paneru",
-    photo: `/student/Khem-raj.JPG`,
-    college: "/college/Canadore-college.png",
-    review: ""
-  },
+  
   {
     name: "Ankit Dahal",
     photo: `/student/ANKIT-DAHAL.jpg`,
