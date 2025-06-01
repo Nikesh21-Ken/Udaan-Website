@@ -130,7 +130,7 @@ useEffect(() => {
                 
                 </div>
                 <div className='info-box'>
-                <h1>English Proficency Test</h1>
+                <h1>English Proficiency Test</h1>
           <div className='english-information'>
               <div className='i-tick'>
                 <div className='i-box'>

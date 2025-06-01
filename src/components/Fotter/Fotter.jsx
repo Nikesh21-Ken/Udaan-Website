@@ -6,7 +6,7 @@ const Fotter = () => {
     <div className='fotter'>
       <p>@ 2024 Udaan Education infosys. All rights reserved</p>
       <ul>
-        <li>Terms of servie</li>
+        <li>Terms of service</li>
         <li>Privacy Policy</li>
       </ul>
     </div>

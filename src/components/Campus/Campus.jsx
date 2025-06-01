@@ -13,17 +13,17 @@ const Campus = () => {
        <div className="gallery">
        <div className='gallery-com'>
        <Link to="/canada"><div className='gallery-img'><img src={study_canada} alt="" /></div>
-        <p> STUDY IN CANADA</p>
+        <p>CANADA</p>
         </Link> </div>
         <div className='gallery-com'><Link to="/usa"> <div className='gallery-img'><img src={study_usa} alt="" /></div>
-        <p> STUDY IN USA</p></Link></div>
+        <p>  USA</p></Link></div>
         <div className='gallery-com'> <Link to="/uk"><div className='gallery-img'><img src={study_uk} alt="" /></div>
-        <p> STUDY IN UK</p></Link></div>
+        <p> UK</p></Link></div>
         <div className='gallery-com'><Link to="/australia"> <div className='gallery-img'><img src={study_australia} alt="" /></div>
-        <p> STUDY IN Australia</p></Link></div>
+        <p> Australia</p></Link></div>
         <div className='gallery-com'><Link to="/new-zealand"> <div   
         className='gallery-img'><img src={study_newzealand} alt="" /></div>
-        <p> STUDY IN</p> <p> NEW ZEALAND</p></Link></div> 
+         <p> NEW ZEALAND</p></Link></div> 
       </div>
 
     </div>

@@ -37,16 +37,16 @@ import {
       <Route path='contact-us' element ={<ContactUs/>}/>
       <Route path='apply-now' element ={<ApplyNow/>}/>
       <Route path='about-us' element ={<AboutUs/>}/>
-      <Route path='canada' element ={<Canada/>}/>
-      <Route path='uk' element ={<UK/>}/>
-      <Route path='usa' element ={<USA/>}/>
-      <Route path='australia' element ={<Australia/>}/>
+      <Route path='Study-in-Canada' element ={<Canada/>}/>
+      <Route path='Study-in-UK' element ={<UK/>}/>
+      <Route path='Study-in-USA' element ={<USA/>}/>
+      <Route path='Study-in-Australia' element ={<Australia/>}/>
       <Route path='IELTS' element ={<IELTS/>}/>
       <Route path='PTE' element ={<PTE/>}/>
       <Route path='SAT' element ={<SAT/>}/>
       <Route path='TOEFL' element ={<TOEFL/>}/>
       <Route path='GRE' element ={<GRE/>}/>
-      <Route path='new-zealand' element ={<NewZealand/>}/>
+      <Route path='Study-in-New-Zealand' element ={<NewZealand/>}/>
       <Route path='event' element ={<Event/>}/>
     </Route>
   )

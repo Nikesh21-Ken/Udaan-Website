@@ -36,11 +36,11 @@ const Navbar = () => {
               <li> <NavLink to='/'> Home</NavLink></li>
               <li> <NavLink to='/programs'> Programs <RiArrowDropDownLine size={30} /> </NavLink></li>
               <li className='abroad-study'>Abroad Study <RiArrowDropDownLine size={30} />
-                <div className="abroad-nav"  >                  <li> <NavLink to='/canada'>Canada</NavLink> </li>
-                  <li><NavLink to='/usa'>USA</NavLink></li>
-                  <li><NavLink to='/uk'>UK</NavLink></li>
-                  <li><NavLink to='/australia'>Australia</NavLink></li>
-                  <li><NavLink to='/new-zealand'>New Zealand</NavLink></li>
+                <div className="abroad-nav"  >                  <li> <NavLink to='/Study-in-Canada'>Canada</NavLink> </li>
+                  <li><NavLink to='/Study-in-USA'>USA</NavLink></li>
+                  <li><NavLink to='/Study-in-UK'>UK</NavLink></li>
+                  <li><NavLink to='/Study-in-Australia'>Australia</NavLink></li>
+                  <li><NavLink to='/Study-in-New-Zealand'>New Zealand</NavLink></li>
                 </div></li>
               <li className='test-preparation' >Test Preparation <RiArrowDropDownLine size={30} />
                 <div className="test-nav"  >
